@@ -1,0 +1,281 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gilroy';
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    color: #fff;
+}
+
+h1{
+    color: #000; !important  
+}
+
+
+
+#main-container {
+    background-color: #F8F3D9;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+img {
+    height: 300px;
+    width: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+}
+
+
+
+.member {
+    height: 700px;
+    min-width: 360px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    border-radius: 40px;
+    box-shadow: 10px 10px 20px rgb(0, 0, 0);
+}
+
+#member1{
+    background-color: #1E90FF ;
+}
+
+#member2{
+    background-color: #FF5722 ;
+}
+
+#member3{
+    background-color: #2ECC71;
+}
+
+#member4{
+    background-color: #8E44AD;
+}
+
+.mem-name{
+    font-size: 38px;
+    font-weight: 100;
+    font-family: "Rubik Maps", system-ui;
+    padding-top: 50px;
+}
+
+.role{
+    font-weight: 100;
+    font-size: smaller;
+    padding: 20px;
+}
+
+.bio{
+    font-weight: 100;
+    font-size: 19px;
+    padding: 20px;
+    text-align: justify;
+}
+
+.logo{
+    padding-top: 20px;
+    font-size: 30px;
+}
+
+h1{
+    background-color:#F8F3D9 ;
+    text-transform: uppercase;
+    font-size: 100px;
+    text-align: center;
+    font-family:monospace;
+}
+
+    /* Laptop styles */
+
+@media (min-width: 901px) and (max-width: 1200px){
+
+img {
+    height: 270px;
+    width: 175px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+}
+
+.member {
+    height: 600px;
+    min-width: 280px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    border-radius: 40px;
+    box-shadow: 10px 10px 20px rgb(0, 0, 0);
+}
+
+.mem-name{
+    font-size: 28px;
+    font-weight: 100;
+    font-family: "Rubik Maps", system-ui;
+    padding-top: 50px;
+}
+
+.bio{
+    font-weight: 100;
+    font-size: 13px;
+    padding: 15px;
+    text-align: justify;
+}
+
+
+}
+
+    /* Tablet styles */
+
+@media (min-width: 601px) and (max-width: 900px){ 
+
+h1{
+
+    font-size: 70px;
+}
+
+img {
+    height: 230px;
+    width: 150px;
+}
+
+.member {
+    height: 500px;
+    min-width: 205px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    border-radius: 40px;
+    box-shadow: 10px 10px 20px rgb(0, 0, 0);
+}
+
+.mem-name{
+    font-size: 20px;
+    font-weight: 100;
+    font-family: "Rubik Maps", system-ui;
+    padding-top: 40px;
+}
+
+.bio{
+    font-weight: 100;
+    font-size: 10px;
+    padding: 15px;
+    text-align: justify;
+}
+
+.logo{
+    padding-top: 10px;
+    font-size: 20px;
+}
+}
+
+    /* Mobile styles */
+@media (min-width: 401px) and (max-width: 600px){
+
+#main-container {
+    display: flex;
+    flex-direction: column;
+    
+}    
+
+h1{
+    font-size: 50px;
+}
+
+img {
+    height: 400px;
+    width: 300px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+}
+
+.member {
+    height: 750px;
+    max-width: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    border-radius: 40px;
+    box-shadow: 10px 10px 20px rgb(0, 0, 0);
+}
+
+.mem-name{
+    font-size: 40px;
+    font-weight: 100;
+    font-family: "Rubik Maps", system-ui;
+    padding-top: 50px;
+}
+
+.bio{
+    font-weight: 100;
+    font-size: 18px;
+    padding: 15px;
+    text-align: justify;
+}
+}
+
+    /* Extra small screen */
+@media (max-width: 400px){
+
+#main-container {
+    display: flex;
+    flex-direction: column;
+    
+}    
+
+h1{
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+img {
+    height: 350px;
+    width: 250px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+}
+
+.member {
+    height: 750px;
+    max-width: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    border-radius: 40px;
+    box-shadow: 10px 10px 20px rgb(0, 0, 0);
+}
+
+.mem-name{
+    font-size: 35px;
+    font-weight: 100;
+    font-family: "Rubik Maps", system-ui;
+    padding-top: 50px;
+}
+
+.bio{
+    font-weight: 100;
+    font-size: 14px;
+    padding: 15px;
+    text-align: justify;
+}
+}
